@@ -1,0 +1,14 @@
+#GIT E GUTHUB
+
+git status - verificar a situacao do nosso app
+
+
+#instalar e configurar o angular
+https://angular.io/guide/setup-local
+
+1- criar projeto 
+  -ng new nome-do-projeto
+
+2- rodar/subir o projeto (precisa estar dentro da pag do projeto)
+  - ng serve -o
+
