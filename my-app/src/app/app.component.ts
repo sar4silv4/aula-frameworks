@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-app';
+  nome = 'Sara'
+  count = 10;
+
+  menos (){
+  this.count = this.count--;
 }
+
+}
+ mais () {
+  this.count = this.count++;
+
+ }
