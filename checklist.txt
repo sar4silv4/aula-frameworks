@@ -4,6 +4,11 @@ git status - verificar a situacao do nosso app
 git add - adicionar arquivos a linha do tempo
 git commit -m - msg relacionado ao q foi feito, gravar linha do tempo
 git push - enviar p o github
+git clone - copiar projeto para o local
+git config - --sistem --unsent credential.helper
+git config - global username "seunome"
+git config --global email "emaildogit"
+
 
 
 #instalar e configurar o angular
