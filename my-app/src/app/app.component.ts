@@ -14,8 +14,9 @@ export class AppComponent {
   this.count = this.count--;
 }
 
-}
- mais () {
+mais () {
   this.count = this.count++;
 
  }
+
+}
