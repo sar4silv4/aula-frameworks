@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./fotos.img/stardew.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.credit {
+    background: rgba(0, 0, 0, 0.75);
+    font-size: 1.3em;
+    color: whitesmoke;
+    padding: 1em;
+    border-radius: 0.5em;
+}
+
+.credit a {
+    color: turquoise;
+    transition: 1s;
+}
+
+.credit a:hover {
+    color: white;
+    text-shadow: 0 0 8px white;
+}
+
+
+input{
+  color: rgb(0, 0, 0);
+  padding: 15px;
+  outline:none;
+  font-size: 38px;
+  font-family: 'Bebas Neue', cursive;
+  border-radius: 25%;
+}
+
+.maincolor{
+  background-image: url(./fotos.img/fundo.jpg);
+  background-position: center center;
+  background-attachment:fixed;
+  border: solid brown;
+}
+
+.num{
+  width: 64px;
+  height: 67px;
+}
+
+.text{
+  width: 160px;
+  height: 26px;
+  border-radius: 22px;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.text1{
+  width: 24px;
+  height: 26px;
+  border-radius: 22px;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-bottom:12px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.main{
+  display: inline-block;
+}
+
+.blue{
+  background-image: url(./fotos.img/jazul.png);
+  background-position: center center;
+  background-size: cover;
+}
+
+.pin{
+    background-image: url(./fotos.img/jroxo.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+.gre{
+    background-image: url(./fotos.img/jverde.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+.pur{
+    background-image: url(./fotos.img/jlaranja.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+.ora{
+    background-image: url(./fotos.img/jamarelo.png);
+    background-position: center center;
+    background-size: cover;
+}
