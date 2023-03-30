@@ -20,3 +20,5 @@ https://angular.io/guide/setup-local
 2- rodar/subir o projeto (precisa estar dentro da pag do projeto)
   - ng serve -o
 
+3- criar um novo componente
+ng g c components/login --skip-tests 
