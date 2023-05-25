@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -6,6 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent {
+
+  constructor (private router: Router) {
+
+
+  }
 
   isError = false;
 
@@ -21,6 +27,7 @@ export class LoginComponent {
       this.isError = false; 
       this.isSucess = true
       console.log ("Login Aprovado")
+      this.router.navigateByUrl('/dashboard')
      } else { 
       this.isError = true;
       this.isSucess = false;
